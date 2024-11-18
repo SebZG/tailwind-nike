@@ -2,7 +2,8 @@ import { products } from "../constants";
 import PopularProductCard from "../components/PopularProductCard";
 
 const PopularProducts = () => {
-    return (<section
+    return (
+    <section
         id="products"
         className="max-container max-sm:mt-12"
     >
@@ -22,6 +23,7 @@ const PopularProducts = () => {
             ))}
         </div>
 
-    </section>);
+    </section>
+    );
 };
 export default PopularProducts;
